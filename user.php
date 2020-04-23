@@ -16,7 +16,7 @@
    }
    if ($estado)
    {
-       echo "User Ok";
+       header("location:ventas.html");
    }
    else 
    {
