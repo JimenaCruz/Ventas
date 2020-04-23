@@ -20,7 +20,7 @@
    }
    else 
    {
-       echo "Not User"
+       header("location:index.html");
    }
    }
 
