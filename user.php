@@ -15,6 +15,8 @@
    {
        $estado=true;
    }
+   
+   }
    if ($estado)
    {
        header("location:ventas.html");
@@ -22,7 +24,6 @@
    else 
    {
        header("location:index.html");
-   }
    }
 
 
