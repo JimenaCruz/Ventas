@@ -1,9 +1,10 @@
 <?php
-  $user=array("user01","user02","user03");
-  $pass=array(0912,0204,1901);
-   $estado=false; 
+     $user=array("user01","user02","user03");
+     $pass=array(1912,123,4567);
 
-   $nombre=%POST['Nombre'];
+     $estado=false; 
+
+   $nombre=$_POST['Nombre'];
    $password=$_POST['Pass'];
 
    $tam=count($user); 
