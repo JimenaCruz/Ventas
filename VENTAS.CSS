@@ -1,21 +1,4 @@
-*
-{
-margin : 20px;
-padding : 20px; 
 
-}
- #ENCABEZADO
- {
- font family: Helvetica;
- font-size:46px,
- color: black;
- box-sizing: border-box;
- }
- body
- {
-	padding:0;
-	margin:0;
-	background:var(--color,#ddd);
-}
+
 
  
