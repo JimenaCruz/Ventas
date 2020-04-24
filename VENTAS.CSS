@@ -4,10 +4,6 @@ margin : 20px;
 padding : 20px; 
 
 }
-body 
- {
- background: #fefbd8;
- }
  #ENCABEZADO
  {
  font family: Helvetica;
@@ -15,4 +11,52 @@ body
  color: black;
  box-sizing: border-box;
  }
+ body{
+	padding:0;
+	margin:0;
+	background:var(--color,#ddd);
+}
+.hover{
+	height:100px;
+	width:150px;
+	display:block;
+	background-color:transparent;
+	--shadow:5px 2px 2px #a8a6a8;
+	outline:none;
+	border:1px solid var(--color,black);
+}
+.c1{
+	--color:red;
+} 
+.c2{
+	--color:#4286f4;
+}
+.c3{
+	--color:#42f4d9;
+}
+.c4{
+	--color:#f46842;
+}
+.c5{
+	--color:#f4d942;
+}
+.c6{
+	--color:#dd2c52;
+}
+.c7{
+	--color:#42f480;
+}
+.c8{
+	--color:#382cd6;
+
+}
+.c9{
+	--color:#f427d2;
+}
+.hover:hover {
+   cursor: pointer;
+	background: var(--color, black);
+	color: white;
+	box-shadow:var(--shadow);
+  }
  
