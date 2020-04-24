@@ -7,13 +7,9 @@
  font family: Helvetica;
  font-size:46px,
  color: black;
-
+ box-sizing: border-box;
  }
-
- {
-	box-sizing: border-box;
-}
-
+ 
 .acordeon input 
 {
 	display: none;
