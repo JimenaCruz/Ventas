@@ -1,8 +1,14 @@
- body 
+*
+{
+margin : 20px;
+padding : 20px; 
+
+}
+body 
  {
  background: #fefbd8;
  }
- h1.titulo 
+ #ENCABEZADO
  {
  font family: Helvetica;
  font-size:46px,
